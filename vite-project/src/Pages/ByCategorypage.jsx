@@ -1,10 +1,11 @@
 import React from 'react';
+import Layout from '../Layout/Layout.jsx';
 
 const ByCategorypage = () => {
     return (
-        <div>
-           <h1>This is ByCategoryPage</h1> 
-        </div>
+        <Layout>
+           <h1>This is post by category page</h1>
+        </Layout>
     );
 };
 
